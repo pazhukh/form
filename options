@@ -1,3 +1,5 @@
 //reset form
-$('#registerFitting')[0].reset();//Jquery
-document.getElementById("registerFitting").reset(); // TypeScript
+$('#myForm')[0].reset();//Jquery
+$('.myForm').trigger("reset");//Jquery
+
+document.getElementById("myForm").reset(); // TypeScript
